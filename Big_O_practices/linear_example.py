@@ -1,8 +1,9 @@
+# O(n) example
 
 example = [1,3,10,20,2,7]
 
-def linear_example(list):
-    for number in list:
+def linear_example(lista):
+    for number in lista:
         if number == 2:
             return True
     return False
